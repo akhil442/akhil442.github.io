@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akhil Puttabanthi | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="shell">
+    <!-- LEFT: fixed panel -->
+    <aside class="left">
+      <div class="left__top">
+        <div class="badge">Open to internships & roles</div>
+
+        <h1 class="name">Akhil Puttabanthi</h1>
+        <p class="headline">Data Analyst | ML | Data Engineering</p>
+
+        <p class="bio">
+          Data Science graduate student applying for ML/AI, Data Analyst, and Data Engineering roles.
+          I like clean analytics, reliable pipelines, and practical ML — work that makes decisions easier.
+        </p>
+
+        <nav class="nav" aria-label="Sections">
+          <a class="nav__link active" href="#projects">Projects</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#education">Education</a>
+          <a class="nav__link" href="#leadership">Leadership</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+
+        <a class="resume" href="Akhil_puttabanthi_resume.pdf" target="_blank" rel="noopener">
+          View Full Resume <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="left__bottom">
+        <a class="icon" href="https://github.com/akhil442" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.75 5.68.75 12.1c0 5.2 3.44 9.6 8.2 11.16.6.12.82-.27.82-.6 0-.3-.01-1.1-.02-2.16-3.34.75-4.04-1.66-4.04-1.66-.55-1.42-1.33-1.8-1.33-1.8-1.09-.77.08-.76.08-.76 1.2.09 1.83 1.26 1.83 1.26 1.08 1.88 2.83 1.34 3.52 1.03.11-.8.42-1.34.76-1.65-2.67-.31-5.48-1.36-5.48-6.06 0-1.34.46-2.44 1.22-3.3-.12-.31-.53-1.57.12-3.27 0 0 1.01-.33 3.3 1.26a11.1 11.1 0 0 1 3-.42c1.02 0 2.05.14 3 .42 2.28-1.59 3.29-1.26 3.29-1.26.65 1.7.24 2.96.12 3.27.76.86 1.22 1.96 1.22 3.3 0 4.72-2.82 5.74-5.5 6.05.43.38.82 1.12.82 2.26 0 1.63-.02 2.95-.02 3.35 0 .33.22.73.83.6 4.76-1.56 8.2-5.96 8.2-11.16C23.25 5.68 18.27.5 12 .5z"/></svg>
+        </a>
+
+        <a class="icon" href="https://www.linkedin.com/in/akhil-puttabanthi-a06383211" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 23.5h4V7.98h-4V23.5zM8.5 7.98h3.83v2.12h.05c.53-1 1.82-2.06 3.74-2.06 4 0 4.74 2.63 4.74 6.05v7.4h-4v-6.56c0-1.56-.03-3.57-2.18-3.57-2.18 0-2.51 1.7-2.51 3.46v6.67h-4V7.98z"/></svg>
+        </a>
+
+        <a class="icon" href="mailto:akhilputtabanthi123@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13A2.5 2.5 0 0 1 19.5 21h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2-.5 7.3 6.05c.3.25.73.25 1.02 0L19.8 5H4.2Zm15.8 2.3-6.8 5.62a2.6 2.6 0 0 1-3.4 0L3 7.3V18.5c0 .83.67 1.5 1.5 1.5h15c.83 0 1.5-.67 1.5-1.5V7.3Z"/></svg>
+        </a>
+      </div>
+    </aside>
+
+    <!-- RIGHT: content -->
+    <main class="right">
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <header class="section__head">
+          <h2>Projects</h2>
+        </header>
+
+        <div class="group">
+          <h3 class="group__title"><span class="group__dot" aria-hidden="true"></span>Data Engineering / Cloud</h3>
+
+          <a class="card" href="https://github.com/akhil442/SLA-FRESHNESS-DASHBOARD-USING-AWS" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">SLA Freshness & Business SLA Monitoring Dashboard</div>
+                <div class="card__desc">
+                  Built a two-layer AWS SLA monitoring system: pipeline freshness (late/missing feeds) + business delivery SLA,
+                  exposed via a single API and a Streamlit dashboard, with alerting for critical breaches.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">AWS S3</span>
+              <span class="chip">Lambda</span>
+              <span class="chip">Glue</span>
+              <span class="chip">Athena (SQL)</span>
+              <span class="chip">API Gateway</span>
+              <span class="chip">SNS</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">Python</span>
+              <span class="chip">EC2</span>
+            </div>
+          </a>
+<a class="card" href="https://github.com/akhil442/End-to-End-ETL-pipeline-Azure" target="_blank" rel="noopener">
+  <div class="card__top">
+    <div>
+      <div class="card__title">End-to-End Azure Sales Analytics ETL Pipeline</div>
+      <div class="card__desc">
+        Engineered a scalable Azure-based ETL pipeline to process raw sales data through Bronze, Silver, and Gold layers using Azure Data Factory.
+        Implemented SQL transformations for data quality and analytics-ready datasets, automated pipeline execution,
+        and designed a Power BI dashboard to analyze sales performance across time, regions, and product categories.
+      </div>
+    </div>
+    <div class="card__arrow" aria-hidden="true">↗</div>
+  </div>
+
+  <div class="chips">
+    <span class="chip">Azure Data Factory</span>
+    <span class="chip">Azure SQL</span>
+    <span class="chip">Power BI</span>
+    <span class="chip">ETL</span>
+    <span class="chip">Bronze-Silver-Gold</span>
+    <span class="chip">Data Transformation</span>
+    <span class="chip">Data Validation</span>
+  </div>
+</a>
+
+
+          <a class="card" href="https://github.com/akhil442/Real-Time-Tesla-Stock-Sentiment-Analysis-and-Prediction-Using-AWS-Machine-Learning" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">Real-Time Tesla Stock Sentiment Analysis & Prediction</div>
+                <div class="card__desc">
+                  Predicted Tesla stock movement by combining historical stock data with real-time news sentiment.
+                  Implemented ingestion + merging + model training and surfaced predictions via a Streamlit app and dashboards.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">yfinance</span>
+              <span class="chip">NewsAPI</span>
+              <span class="chip">AWS</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">QuickSight</span>
+              <span class="chip">ML Classification</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="group">
+          <h3 class="group__title"><span class="group__dot" aria-hidden="true"></span>Machine Learning</h3>
+
+          <a class="card" href="https://github.com/akhil442/A-Sales-Forecasting-Technique-Using-LightGBM" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">Sales Forecasting Technique Using LightGBM</div>
+                <div class="card__desc">
+                  Built an ML-based item-level forecasting system and compared Random Forest, XGBoost, and LightGBM.
+                  LightGBM achieved the best RMSE and was selected for deployment-oriented performance.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Pandas</span>
+              <span class="chip">LightGBM</span>
+              <span class="chip">XGBoost</span>
+              <span class="chip">Random Forest</span>
+              <span class="chip">Feature Engineering</span>
+              <span class="chip">RMSE</span>
+            </div>
+          </a>
+
+          <a class="card" href="https://github.com/akhil442/Semantic-Segmentation-using-DeepLabV3-ResNet101" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">Semantic Segmentation using DeepLabV3 (ResNet101)</div>
+                <div class="card__desc">
+                  Built a custom dataset with manual pixel-level masks and fine-tuned DeepLabV3-ResNet101.
+                  Evaluated with Pixel Accuracy, mIoU, Precision, and Recall, and visualized GT vs predictions.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">PyTorch</span>
+              <span class="chip">DeepLabV3</span>
+              <span class="chip">ResNet101</span>
+              <span class="chip">Roboflow</span>
+              <span class="chip">Data Augmentation</span>
+              <span class="chip">mIoU</span>
+            </div>
+          </a>
+
+          <a class="card" href="https://github.com/akhil442/A-Robust-Diagnostic-System-Leveraging-Explicit-Domain-Knowledge-and-Learned-Data-Patterns" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">Robust Diagnostic System using Ontology + ML</div>
+                <div class="card__desc">
+                  Combined explicit domain knowledge (OWL ontology + SWRL rules) with a machine-learning fallback model.
+                  The system attempts rule-based reasoning first, then falls back to a trained classifier when needed.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Ontology (OWL)</span>
+              <span class="chip">SWRL Rules</span>
+              <span class="chip">Decision Tree</span>
+              <span class="chip">Flask API</span>
+              <span class="chip">Vercel</span>
+              <span class="chip">CLI Tool</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="group">
+          <h3 class="group__title"><span class="group__dot" aria-hidden="true"></span>NLP / RAG</h3>
+
+          <a class="card" href="https://github.com/akhil442/FINANCIAL-RAG-PROJECT" target="_blank" rel="noopener">
+            <div class="card__top">
+              <div>
+                <div class="card__title">Financial RAG — Hallucination Detection & Model Comparison</div>
+                <div class="card__desc">
+                  Built a financial-domain RAG pipeline to analyze how different LLMs answer fact-based questions:
+                  whether they stay grounded in retrieved evidence, hallucinate unsupported content, or abstain.
+                </div>
+              </div>
+              <div class="card__arrow" aria-hidden="true">↗</div>
+            </div>
+
+            <div class="chips">
+              <span class="chip">RAG</span>
+              <span class="chip">LLMs</span>
+              <span class="chip">Evaluation</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">Python</span>
+              <span class="chip">Financial QA</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <header class="section__head">
+          <h2>Skills</h2>
+        </header>
+
+        <div class="grid">
+          <div class="panel">
+            <h3>Data Analysis</h3>
+            <ul>
+              <li>SQL (joins, aggregations, subqueries, window functions)</li>
+              <li>EDA, KPI definition & validation</li>
+              <li>Trend analysis, segmentation, data quality checks</li>
+              <li>Excel dashboards (pivots, XLOOKUP)</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Machine Learning / AI</h3>
+            <ul>
+              <li>Supervised learning, feature engineering</li>
+              <li>Model evaluation (RMSE, classification metrics)</li>
+              <li>Tree-based models (LightGBM, XGBoost, Random Forest)</li>
+              <li>Applied NLP & RAG evaluation workflows</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Data Engineering</h3>
+            <ul>
+              <li>AWS: S3, Lambda, Athena, Glue, API Gateway, SNS</li>
+              <li>Pipeline freshness + SLA monitoring concepts</li>
+              <li>APIs and deployment basics</li>
+              <li>GitHub-first, reproducible project structure</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Tools</h3>
+            <ul>
+              <li>Python (Pandas, NumPy)</li>
+              <li>Power BI, QuickSight, Streamlit</li>
+              <li>PostgreSQL / MySQL</li>
+              <li>PyTorch (DeepLabV3 fine-tuning)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <header class="section__head">
+          <h2>Education</h2>
+        </header>
+
+        <div class="grid">
+          <div class="panel">
+            <h3>University of New Haven</h3>
+            <div class="muted">M.S. Data Science</div>
+            <div class="muted">GPA: 4.0 / 4.0 • Dean’s Scholarship (30%)</div>
+          </div>
+
+          <div class="panel">
+            <h3>CVR College of Engineering</h3>
+            <div class="muted">B.Tech Computer Science</div>
+            <div class="muted">GPA: 8.96 / 10</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEADERSHIP -->
+      <section id="leadership" class="section">
+        <header class="section__head">
+          <h2>Leadership & Activities</h2>
+        </header>
+
+        <div class="panel">
+          <ul class="tight">
+            <li>Founder, Coding Club under CSI — organized peer learning sessions and technical workshops</li>
+            <li>Volunteer, IEEE Student Chapter — supported academic and technical events</li>
+            <li>Led a sustainability initiative including a 5K run promoting plastic-ban awareness</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <header class="section__head">
+          <h2>Contact</h2>
+        </header>
+
+        <div class="contact">
+          <a class="iconLg" href="https://github.com/akhil442" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.73.5.75 5.68.75 12.1c0 5.2 3.44 9.6 8.2 11.16.6.12.82-.27.82-.6 0-.3-.01-1.1-.02-2.16-3.34.75-4.04-1.66-4.04-1.66-.55-1.42-1.33-1.8-1.33-1.8-1.09-.77.08-.76.08-.76 1.2.09 1.83 1.26 1.83 1.26 1.08 1.88 2.83 1.34 3.52 1.03.11-.8.42-1.34.76-1.65-2.67-.31-5.48-1.36-5.48-6.06 0-1.34.46-2.44 1.22-3.3-.12-.31-.53-1.57.12-3.27 0 0 1.01-.33 3.3 1.26a11.1 11.1 0 0 1 3-.42c1.02 0 2.05.14 3 .42 2.28-1.59 3.29-1.26 3.29-1.26.65 1.7.24 2.96.12 3.27.76.86 1.22 1.96 1.22 3.3 0 4.72-2.82 5.74-5.5 6.05.43.38.82 1.12.82 2.26 0 1.63-.02 2.95-.02 3.35 0 .33.22.73.83.6 4.76-1.56 8.2-5.96 8.2-11.16C23.25 5.68 18.27.5 12 .5z"/></svg>
+          </a>
+
+          <a class="iconLg" href="https://www.linkedin.com/in/akhil-puttabanthi-a06383211" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 23.5h4V7.98h-4V23.5zM8.5 7.98h3.83v2.12h.05c.53-1 1.82-2.06 3.74-2.06 4 0 4.74 2.63 4.74 6.05v7.4h-4v-6.56c0-1.56-.03-3.57-2.18-3.57-2.18 0-2.51 1.7-2.51 3.46v6.67h-4V7.98z"/></svg>
+          </a>
+
+          <a class="iconLg" href="mailto:akhilputtabanthi123@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13A2.5 2.5 0 0 1 19.5 21h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2-.5 7.3 6.05c.3.25.73.25 1.02 0L19.8 5H4.2Zm15.8 2.3-6.8 5.62a2.6 2.6 0 0 1-3.4 0L3 7.3V18.5c0 .83.67 1.5 1.5 1.5h15c.83 0 1.5-.67 1.5-1.5V7.3Z"/></svg>
+          </a>
+        </div>
+
+        <footer class="footer">
+          © <span id="y"></span> Akhil Puttabanthi
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // subtle active nav on scroll
+    const links = Array.from(document.querySelectorAll(".nav__link"));
+    const sections = links.map(a => document.querySelector(a.getAttribute("href")));
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.remove("active"));
+          const id = "#" + e.target.id;
+          const active = links.find(l => l.getAttribute("href") === id);
+          if (active) active.classList.add("active");
+        }
+      });
+    }, { rootMargin: "-40% 0px -55% 0px" });
+
+    sections.forEach(s => s && io.observe(s));
+  </script>
+</body>
+</html>
