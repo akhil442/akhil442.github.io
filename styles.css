@@ -9,7 +9,7 @@
   --line: rgba(255,255,255,0.10);
   --chip: rgba(255,255,255,0.08);
   --chipLine: rgba(255,255,255,0.10);
-  --accent: #9bb3ff;         /* subtle */
+  --accent: #9bb3ff;
   --accentSoft: rgba(155,179,255,0.18);
   --radius: 16px;
   --radius2: 22px;
@@ -185,7 +185,7 @@ a{ color: inherit; text-decoration: none; }
   letter-spacing: -0.02em;
 }
 
-/* Group heading (handcrafted feel) */
+/* Group heading */
 .group{
   margin-top: 18px;
 }
